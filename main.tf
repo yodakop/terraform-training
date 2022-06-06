@@ -7,7 +7,7 @@ resource "aws_instance" "myawsserver" {
   instance_type = "t2.micro"
 
   tags = {
-    Name = "rodel-via-tf-cloud"
+    Name = "rodel-via-tf-cloud-gitub"
     Env = "Dev"
   }
 }
